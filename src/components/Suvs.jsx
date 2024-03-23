@@ -3,8 +3,8 @@ import iconSuvs from '../assets/icon-suvs.svg'
 export default function Suvs() {
     return (
         
-        <div className='bg-green p-12'>
-            
+        <section className='bg-green p-12'>
+
           <img src={iconSuvs} alt="Ícone dos carros suvs" className='mb-7' />
 
           <h2 className='font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg'>SUVs</h2>
@@ -13,6 +13,6 @@ export default function Suvs() {
 
           <a className='font-lexend bg-offwhitebg bg-offwhitebg px-10 py-3 block w-fit rounded-3xl text-green border-2 border-offwhitebg border-2 border-offwhitebg hover:bg-green hover:text-offwhitebg' href="https://www.webmotors.com.br/suvs" target="_blank">Ver mais</a>
           
-        </div>
+        </section>
     )
 }

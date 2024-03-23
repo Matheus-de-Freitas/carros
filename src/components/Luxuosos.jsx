@@ -2,7 +2,7 @@ import iconLuxury from '../assets/icon-luxury.svg'
 
 export default function Luxuosos() {
     return(
-        <div className='bg-dark-green p-12 max-lg:rounded-b-lg lg:rounded-r-lg'>
+        <section className='bg-dark-green p-12 max-lg:rounded-b-lg lg:rounded-r-lg'>
 
           <img src={iconLuxury} alt="Ícone dos carros de luxo" className='mb-7'/>
           
@@ -12,6 +12,6 @@ export default function Luxuosos() {
 
           <a className='font-lexend bg-offwhitebg bg-offwhitebg px-10 py-3 block w-fit rounded-3xl text-dark-green border-2 border-offwhitebg hover:bg-dark-green hover:text-offwhitebg' href="https://www.webmotors.com.br/carros-de-luxo" target="_blank border-2 border-offwhitebg" >Ver mais</a>
 
-        </div>
+        </section>
     )
 }
