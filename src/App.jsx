@@ -7,7 +7,7 @@ export default function App() {
     <main>
       <section>
 
-        <div>
+        <div className='bg-orange'>
           <img src={iconSedans} alt="Ícone dos carros sedan" />
 
           <h2>Sedans</h2>
@@ -17,7 +17,7 @@ export default function App() {
           <a href="https://www.webmotors.com.br/sedans" target="_blank">Ver mais</a>
         </div>
 
-        <div>
+        <div className='bg-green'>
           <img src={iconSuvs} alt="Ícone dos carros suvs" />
 
           <h2>SUVs</h2>
@@ -27,6 +27,8 @@ export default function App() {
           <a href="https://www.webmotors.com.br/suvs" target="_blank">Ver mais</a>
           
         </div>
+
+        <div className='bg-dark-green'>
           <h2>Luxury</h2>
 
           <img src={iconLuxury} alt="Ícone dos carros de luxo" />
@@ -34,8 +36,6 @@ export default function App() {
           <p>Passeie nos melhores carros sem os preços exorbitantes. Desfrute do conforto aprimorado de um aluguel de luxo e chegue com estilo.</p>
 
           <a href="https://www.webmotors.com.br/carros-de-luxo" target="_blank">Ver mais</a>
-
-        <div>
 
         </div>
       </section>
